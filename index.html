@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <header>
+        <h1>BMW Danderyd</h1>
+        <img src="Images/BMW_logo_(gray).svg.png" alt="logo">
+    </header>
+
+    <main>
+        <p>Välkommen till Bavaria i Danderyd, <br>din återförsäljare och verkstad för BMW.</p>
+        <div class="main1">
+            <img src="Images/bmw1.jpg" alt="bimmer">
+            <p>Nya BMW M3!  <button class="button">Köp</button></p>
+            
+        </div>
+        <div class="main1">
+            <img src="Images/bmwm4.jpg" alt="bimmer">
+            <p>Nya BMW M4!  <button class="button">Köp</button></p>
+            
+        </div>
+
+        <div class="main1">
+            <img src="Images/bmwm5.jpg" alt="bimmer">
+            <p>Nya BMW M5!  <button class="button">Köp</button></p>
+            
+        </div>
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html"><i class="fas fa-bars"></i> Meny</a>
+            <a href="index.html"><i class="fas fa-home"></i> Hem</a>
+            <a href="index.html"><i class="fas fa-cart-shopping"></i> Varukorg</a>
+            <a href="index.html"><i class="fas fa-envelope"></i> Kontakt</a>
+        </nav>
+    </footer>
+
+    <script>
+        // Initialize PulltoRefresh.js
+        PullToRefresh.init({
+            mainElement: 'body',
+            onRefresh() {
+                // Your refresh logic here, for example, reload the page
+                location.reload();
+            }
+        });
+    </script>
+
+</body>
+</html>
